@@ -16,11 +16,7 @@ spec:
     spec:
       containers:
       - name: node-container
-<<<<<<< HEAD
-        image: harper1105/nodeapi:latest
-=======
         image: stratcastor/nodeapi:latest
->>>>>>> 96c433b2a8b9d7e1de040cefb070e8c34a00d23e
         ports:
         - containerPort: 8080
 ---
@@ -35,8 +31,4 @@ spec:
   ports:
   - protocol: TCP
     port: 8080  
-<<<<<<< HEAD
     targetPort: 8080
-=======
-    targetPort: 8080
->>>>>>> 96c433b2a8b9d7e1de040cefb070e8c34a00d23e
